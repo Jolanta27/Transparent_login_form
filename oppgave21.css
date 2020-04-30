@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css?family=Public+Sans|Roboto&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body {
+    height: 100vh;
+    background-image: url("oslo.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 300px;
+    color: #fff;
+}
+
+.container h1 {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #2979ff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container label {
+    text-transform: uppercase;
+    color: #2979ff;
+    font-family: 'open sans', sans-serif;
+}
+
+.container input {
+    width: calc(100% - 30px);
+    padding: 8px 15px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #2979ff;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'open sans', sans-serif;
+}
+
+.container button {
+    width: 100%;
+    padding: 5px 0;
+    font-size: 22px;
+    text-transform: uppercase;
+    border: none;
+    background-color: #2979ff;
+    color: #fafafa;
+    font-family: 'open sans', sans-serif;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.container button:hover {
+    background-color: #1a237e;
+}
